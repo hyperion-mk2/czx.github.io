@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="1引言假冒产品，如品牌商品，是在国内/国际市场上处理的最重要和最困难的问题之一。经济合作与发展组织（经济合作与发展组织）于2007年宣布，国际贸易中的假冒产品可能达到约2500亿美元[1]，这已经得到了十多年的认可。由于电子商务和电子商务的快速发展，显然迫切需要开发防伪系统。另一方面，十多年来，RFID（射频识别）作为物联网（物联网）领域的关键技术，因其可用于检测插入电源的伪造品而受到了广泛关注。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一种新型的基于区块链的产品所有权管理系统（POMS），用于后供应链中的反假冒产品">
+<meta property="og:url" content="http://yoursite.com/2018/12/28/8/index.html">
+<meta property="og:site_name" content="Pooh blog">
+<meta property="og:description" content="1引言假冒产品，如品牌商品，是在国内/国际市场上处理的最重要和最困难的问题之一。经济合作与发展组织（经济合作与发展组织）于2007年宣布，国际贸易中的假冒产品可能达到约2500亿美元[1]，这已经得到了十多年的认可。由于电子商务和电子商务的快速发展，显然迫切需要开发防伪系统。另一方面，十多年来，RFID（射频识别）作为物联网（物联网）领域的关键技术，因其可用于检测插入电源的伪造品而受到了广泛关注。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-01-09T12:00:03.883Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="一种新型的基于区块链的产品所有权管理系统（POMS），用于后供应链中的反假冒产品">
+<meta name="twitter:description" content="1引言假冒产品，如品牌商品，是在国内/国际市场上处理的最重要和最困难的问题之一。经济合作与发展组织（经济合作与发展组织）于2007年宣布，国际贸易中的假冒产品可能达到约2500亿美元[1]，这已经得到了十多年的认可。由于电子商务和电子商务的快速发展，显然迫切需要开发防伪系统。另一方面，十多年来，RFID（射频识别）作为物联网（物联网）领域的关键技术，因其可用于检测插入电源的伪造品而受到了广泛关注。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/12/28/8/"/>
+
+
+
+
+
+  <title>一种新型的基于区块链的产品所有权管理系统（POMS），用于后供应链中的反假冒产品 | Pooh blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Pooh blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/28/8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="神户小鸟厨">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Pooh blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">一种新型的基于区块链的产品所有权管理系统（POMS），用于后供应链中的反假冒产品</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-28T16:27:42+08:00">
+                2018-12-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>1引言<br>假冒产品，如品牌商品，是在国内/国际市场上处理的最重要和最困难的问题之一。经济合作与发展组织（经济合作与发展组织）于2007年宣布，国际贸易中的假冒产品可能达到约2500亿美元[1]，这已经得到了十多年的认可。由于电子商务和电子商务的快速发展，显然迫切需要开发防伪系统。另一方面，十多年来，RFID（射频识别）作为物联网（物联网）领域的关键技术，因其可用于检测插入电源的伪造品而受到了广泛关注。链，例如[2]  -  [5]。在支持RFID的供应链中，为每个产品分配EPC（电子产品代码）并将其写入RFID标签。这种贴标签产品从制造商运送到供应链方。在运输过程中，每个相关方都询问RFID标签并将额外的证据数据添加到标签中。通过这种方式，下一方可以检查产品是否已通过合法供应链。如果发现任何不一致，此类产品可能被视为假冒产品。</p>
+<p>然而，一旦产品到达供应链的末端并在零售商店中展示，它们的真实性就不再有保证，因为任何拥有RFID阅读器的人都可以查询和克隆标签的信息。 因此，开发防伪系统非常重要，即使在后供应链中克隆了标签的信息也是如此。</p>
+<p>在本文中，我们提出了一种新颖的产品所有权管理系统（POMS），它使伪造者努力克隆真正的标签，因为它们不能证明在该系统上拥有产品。为此，我们利用比特币的概念，比特币是一种分散的加密货币系统，其中可以在称为区块链的公共分类账中证明拥有用户的平衡[6]。特别是，通过借用比特币中使用的“拥有平衡证明”中首先提出的想法，我们在此引入“产品拥有证明”的概念。此外，必须首先确定几个问题，然后通过区块链技术成功实现POMS。例如，只有合法制造商才能声称拥有自己产品的第一个所有权。为了符合这些要求，在本文中，我们提出了一种基于区块链的防伪POMS，它对后供应链非常有效。首先，确定了整体实际系统要求。然后，我们引入了一个完整的协议，使包括供应链合作伙伴和客户在内的各方能够转移和证明附属于RFID标签的产品的所有权。提议的POMS的一个重要优势是客户可以拒绝购买假冒产品，即使是真正的EPC，条件是卖方不拥有自己的所有权。基于所提出的协议，在以太坊平台上实现了证明概念实验系统。绩效评估结果表明，当所有者转移的数量不超过6时，使用建议的POMS管理产品的成本低于1美元。</p>
+<p>本文的其余部分结构如下。 第2节介绍了系统模型，回顾了以前发表的文献，并讨论了区块链和比特币技术如何在研究背景下使用的基本问题。在第3节中详细描述了所提出的POMS的实际操作。性能评估可以在第4节中找到， 然而，开放性问题可能会引起人们对第5节的讨论。最后，结论见第6节。</p>
+<p>2序言<br>在本节中，首先介绍了系统模型。 然后，将介绍以前发表的论文的概述和我们工作背后的动机。 第三，解释了区块链和比特币技术的基本原理，以及如何在区块链操作中考虑这些技术。</p>
+<p>2.1系统模型</p>
+<p>图1显示了由两条链组成的典型产品流，即RFID供应链和后供应链1。 三个组成的第一个组合，即制造商，分销商和零售商[7]。 制造商在分销收到的产品并将其进一步运送给零售商时，向分销商创建，组合和运送产品。 在后期供应链中，零售商将其产品库存并出售给客户，而这些客户又可以转售它们，例如， 在二手店或互联网上。 我们认为每个供应链方都有EPCglobal Class 1 Gen 2（C1G2）兼容RFID阅读器2制造商为每个产品分配EPC，EPC写入附在产品上的标签，以便任何一方可以在到达时识别产品。 还假设每一方都通过计算机和/或智能手机/平板电脑进行互联网连接。</p>
+<p>2.2以前的工作和动机</p>
+<p>十多年来，RFID技术已经整合到供应链中，用于防伪。 FDA（食品和药品管理局）[9]提出了第一个基于RFID的食品和药品行业防伪方法。在他们的提案中，每个供应链方都配备了RFID阅读器，并跟踪每个产品的运输和接收事件。通过这种方式，供应链各方能够跟踪和追踪产品的产品流。但是，正如[2]中指出的那样，这种方法容易受到克隆标记的攻击。具体而言，一旦附加到真品上的RFID标签被攻击者复制，就可以在供应链中插入带有克隆RFID标签的伪造品。通过这种方式，无法通过上述跟踪和跟踪方法识别具有克隆标签的伪造品。到目前为止，处理这个问题的研究工作可以分为两类。第一个涉及开发安全标签分发方案，以便攻击者无法复制供应链中的标签内容，例如：见[7]，[10]  -  [14]。在这些工作中，最重要的可能是基于秘密共享的密钥分配方案[7]。在该方案中，标签的信息用对称加密方案加密，加密密钥通过秘密共享方案分成多个共享[7]。秘密共享方案意识到，如果他/她可以获得超过一定数量的唯一份额，则可以提取密钥[15]。加密的EPC和密钥的份额被写入产品的标签中。收到产品后，授权合作伙伴会查询标签并从足够数量的共享中恢复密钥。然后，用提取的密钥解密EPC。第二类别在具有RFID功能的供应链中具有克隆标签检测方案，例如，见[2]  -  [5]，[16]  -  [18]。例如，在[4]中，当标签到达供应链方时，它将到达证据写入标签存储器中的下一个可用位置。然后，该方请求能够获得信息的检测器，其中包括标签中的信息是否有效。通过这样做，如果发现任何不一致，则检测器可以识别伪造，即，写入的位置是错误的和/或写入的单词不匹配。</p>
+<p>然而，一旦产品在零售商店中出售，即在后供应链方案中，则执行任何这样的跟踪和跟踪方法以及安全的EPC分配方案是不可行的。在这种情况下，当前使用的跟踪和跟踪方法都不能保证标签附加产品的真实性，因为它们利用了标签的秘密信息。此外，很明显，一旦公开展示，任何安全的EPC分发都没有多大意义。因此，EPC不再保证是独特和真实的。因此，即使在后供应链中也必须考虑伪造品检测。为此，在[19]中提出了一种客户可以检查产品合法性的防伪方案。但是，这种方法需要为每个产品提供特殊的计算标签，因此不能使用公开提供的现成标签。此外，如果客户将此类产品销售到二手店或拍卖，则还需要客户在PKI（公钥基础设施）上注册其证书，这是不现实的。</p>
+<p>受上述启发，我们的基本想法是在这里介绍证明“拥有产品”的概念，并设计一种新颖的POMS，管理和跟踪从制造商到现有所有者的产品拥有情况。利用这种方案，如果一方不能证明拥有所要求保护的产品，则可以检测到伪造品。例如，假设客户想通过二手店购买品牌产品。真正的EPC附属于这种销售产品，但实际上，它实际上是假冒产品。在这种情况下，顾客不可能检查卖方是否拥有所要求保护的EPC的所有权。 Tocheck这一点，我们需要验证（i）产品的最初所有者是否已与所声明的EPC风扇制造商合作，以及（ii）具有所声明的EPC的产品的当前所有者必须是卖方。验证这两个条件的明显而直接的方法是制造商构建一个管理其产品所有权的大规模系统。然而，这是一个非常复杂和昂贵的过程，因为它也必须防止攻击，例如， DDoS（分布式拒绝服务）攻击[20]。此外，这种系统通常需要许多方的参与和相当复杂的程序，包括消费者登记他们的识别，即处理敏感数据，例如， ID /密码对。因此，需要一种更有效的操作POMS来处理这些问题，并且与使用RFID的供应链相适应。</p>
+<p>一些创业公司刚刚开始（或很快计划启动）区块链服务，以管理产品的真实性[21]，[22]。例如，Everledger似乎是钻石最成功的服务专项[21]。 Everledger提供钻石认证和相关交易历史的永久分类帐。该特殊分类账用于保险公司，业主，索赔人和执法部门的验证。另一个例子是Blockverify，它似乎将区块链技术用于药品和奢侈品3 [22]。但是，没有任何关于此类商业服务协议的公开信息，这意味着其安全和隐私问题无法在我们的论文中进行审查。然而，为基于区块链的POMS提出严格而透明的协议显然是非常重要的。为了做到这一点，接下来将介绍区块链技术的概述，然后我们将在下一节详细介绍我们的POMS。</p>
+<p>1）比特币和区块链</p>
+<p>我们首先关注比特币，这是一种分散的加密货币，任何可信赖的权威机构，例如银行，不存在，因为比特币是第一个使用区块链技术的成功系统。通过区块链，比特币允许用户在没有任何身份验证和集中授权的情况下证明其余额的所有权。首先简要说明用户如何将比特币转移给另一个用户是有用的。在比特币中，称为交易的数据结构用于识别要转移的金额，发件人和收件人。图2示出了这种比特币交易的示例，其呈现了用户A将他/她的比特币转移到用户B然后用户B将他/她的比特币转移到用户C的详细过程，如图2中的第一交易所示。 。对于用户A将他/她的比特币转移到用户B，用户A的地址是根据A的公钥计算的，比特币的来源（用户A拥有的未用余额），以及用户A的私钥计算的签名在交易的输入部分中指定。在其输出部分，用户A指定要转移的金额和用户B的地址，该地址是从用户B的公钥计算的。用户A还指定他/她自己的地址或可能由用户A拥有的他/她新创建的地址以接收改变。如图2中的第二交易所示，当用户B将比特币转移到用户C时，用户B遵循用户A所做的相同过程。众所周知，在比特币中，任何用户都可以检查每笔交易。因此，如果将相同的地址用于多个事务，则这可能是隐私问题的问题。为了减少此隐私问题的影响，建议用户为每个事务生成一个新地址。由于管理多个地址是一项复杂的任务，因此使用名为wallet的应用程序为每个事务有效地存储和生成公钥/私钥对。</p>
+<p>由于比特币是分散的，因此需要一致的算法，以便每个用户都同意交易的顺序。如果没有达成共识，任何恶意用户都可能会尝试两次使用已用完的余额，即所谓的双倍花费。比特币通过引入区块链概念实现（概率）共识，区块链概念是一个不断增长的包含已批准交易的区块链。图3示出了用于构建区块链的一系列区块。通过强加潜在的块创建者（称为矿工）来创建块，以解决难以解决但易于检查的计算难题。更具体地说，矿工需要找到满足其（SHA-256）散列值的随机数（一次使用的数字）以及对前一个块的引用，并且一组未批准的事务降低目标值。由于需要前一个块来生成下一个块，因此这会产生一个不断增长的块链，即区块链。为了让矿工遵循这样的协议，采用以下激励机制：块的第一个解算器获得新铸造的比特币作为奖励，此外，包括在块中的所有交易费用。</p>
+<p>虽然这种基于区块链的分散共识机制首先用于“货币”，但它可以扩展到需要公开验证的其他应用程序。显然，POMS就是这样一种应用，因为它可以通过用“产品”代替“货币”的概念来实现基于区块链。这个概念已经体现为CC（彩色币）协议，因为任何比特币用户都可以发行自己的货币。例如，CC可以表示资产或财产，例如，汽车或房子。大多数CC协议，如[23]和[24]，是通过利用比特币的脚本功能构建的，其中发送者可以指定发送比特币的规则。在另一种方法中，建议通过发布和交换“我有一个容器”和“我收到一个容器”，最初由制造商和其他方发布的令牌来构建具有CC协议的容器跟踪系统[25]。但是，应该强调的是，CC协议不能用于POMS，因为它缺乏成功实施所必需的操作要求。虽然这些要求将在第III-A节中详细介绍，但值得一提的是，对于POMS，有必要向合作方提供激励，以便各方遵守协议。不幸的是，由于比特币上的CC协议相当简单，因此不可能满足这样的要求。因此，为了实现功能良好的POMS，我们必须选择另一个基于区块链的共识平台，该平台可以支持任何代码的执行。迄今为止，以太坊是唯一能够满足这一条件的平台[26]，因此下面将对其操作进行描述。</p>
+<p>2）以太坊<br>以太坊是一种基于区块链的分散式加密货币，可以执行任何代码[26]。 要启用代码执行，帐户需要内存存储。 出于这个原因，以太坊有两种类型的帐户：CA（合同帐户）和EOA（外部帐户）。 一方面，EOA管理自己的平衡。 另一方面，CA具有其自己的代码以及存储，并且当从另一个CA或EOA接收消息时执行代码。 要为CA编写代码，通常使用称为Solidity的脚本语言[27]。 用System Solidity编写的代码被编译成基于堆栈的编程语言，以便CA可以执行。 由于任何算法都可以在具有Solidity的以太坊上进行描述，因此用于防伪的POMS也可以在以太坊上实现。</p>
+<p>支持编程语言意味着攻击者可以使矿工继续计算无意义的代码，例如 导致无限循环，旨在浪费计算资源和能源。 为了避免这种攻击，任何改变存储的代码执行都要求发送方根据程序签订足够数量的“气体”，例如， 数据量和计算步骤数[28]。 如果在代码执行期间“气体”耗尽，状态将恢复为原始状态，但“气体”的成本不会返回给发送者。</p>
+<p>第三节。拟议的POMS</p>
+<p>在本节中，将介绍拟议的POMS的概述。 特别是，首先概述关键系统要求，然后是以太坊实施合同的伪代码。 接下来，将确定实现所提议的POMS所需的所有各方之间的算法过程的细节。 正如本节最后一部分所显示的那样，提出的POMS的主要优点是它使标签克隆变得毫无意义，因为即使标签被伪造者克隆，它们也无法证明产品的所有权。</p>
+<p>A. POMS运营要求<br>在详细描述POMS协议之前，我们提出了关键要求并解释了它们对所提出的产品所有权证明系统的正确运行的必要性。</p>
+<p>只有合法制造商才能申请产品的初始所有权（原产地）;</p>
+<p>每个制造商只能声明自己的产品;</p>
+<p>“发货”和“收货”事件可以分开;</p>
+<p>制造商必须为遵循POMS协议的每一方提供一些激励。</p>
+<p>第一项要求是避免任何非授权方（包括造假者）非法发布产品所有权。</p>
+<p>第二个也是必需的，因为没有它，以下情况是可能的：制造商M1声称制造商M2的产品的初始所有权。 这可以通过利用SGTIN-96的EPC格式指定的公司前缀来避免，SGTIN-96是用于识别产品的96位EPC格式。 表I显示了SGTIN-96的消息格式。 从该表中可以看出，SGTIN-96包含标识其制造商的公司前缀。 实际上，每个制造商可以在支持RFID的供应链中将其自己的公司前缀登记在GS1中。 通过利用这一点，制造商可以仅声明其自己的EPC的初始所有权，其公司前缀由GS1注册。</p>
+<p>关于第三个要求，我们划分所有权转移过程的原因是为了避免当前所有者在没有到达目的地时将产品发送给接收者的情况。 在这种情况下，如果仅实现了仅仅转移产品所有权的功能，则可能发生以下不期望的情况：转移所有权，但产品本身未到达收件人。</p>
+<p>最后一项要求将使整个系统能够正常运行，因为除制造商外的每一方都必须支付费用才能签发转让产品所有权的合同。 因此，如果没有激励机制，非制造方将会亏损，最终没有动力遵循POMS协议。</p>
+<p>B.实施合同<br>为了满足上述要求，我们实施了两个合同，即MM（制造商经理）和PM（ProductsManager）。一方面，MM提供管理制造商信息的功能，例如，注册在GS1中注册的公司前缀和制造商的地址。另一方面，PM由每个制造商操作并提供管理产品信息的功能，例如，注册新产品和所有权转让。</p>
+<p>与PM相反，在MM中，我们假设存在管理制造商信息的管理员。为避免冒充，只有管理员才能修改任何制造商的信息。其中一个行政候选人是GS1，因为它管理公司前缀。虽然这可能会破坏完全分散的系统的假设，但是为了避免冒充者，例如，这是不可避免的。造假者，从注册自己好像是合法的制造商。实际上，有可能通过利用Namecoin [29]的概念来使我们的MM分散。 Namecoin是一个分散的域名系统，通过强制注册成本避免“大规模”注册。但是，如果我们的MM可以通过引入像Namecoin这样的注册费来构建，那么伪造者可能有机会通过支付适当的费用来非法注册为真正的公司。但是，仍然有可能使MM分散。这是关于基于区块链的POMS的一个悬而未决的问题。</p>
+<p>接下来，将详细介绍MM和PM的伪代码。用Solidity编写的关键缩写代码可以在附录中找到。</p>
+<p>1）制造商经理（MM）<br>MM主要由两个功能组成：（i）在区块链中登记制造商的信息;（ii）检查请求制造商的作者身份以登记产品的EPC。</p>
+<p>ALG。 图1显示了enrollManufacturer（）的伪代码，该代码注册了产品存储在区块链中时所需的制造商信息。 由于我们的POMS只需要一个管理员，例如 GS1，可以注册制造商的信息，在步骤1检查该条件。如果是，则管理员在区块链中登记制造商的信息。</p>
+<p>算法1 registrationComufacturer的伪代码（）在区块链上注册制造商的信息<br>输入：</p>
+<p>制造商M的地址（AM），公司前缀（companyPrefix），名称（companyName）和有效期（validDuration）</p>
+<p>如果此交易的发件人是管理员（如GS1）那么</p>
+<p>在区块链上注册制造商M的信息，即AM，companyPrefix，companyName和validDuration</p>
+<p>其他</p>
+<p>没做什么</p>
+<p>万一</p>
+<p>ALG。图2示出了checkAuthorship（）的伪代码，其检查消息发送者是否拥有所声明的EPC的作者。当消息发送者（可能是制造商M）声称是其产品的初始所有者时，将调用此函数。在这种情况下，首先通过查询区块链中的地址来检索邮件发件人的公司前缀。然后，将其与从参数中可用的EPC中提取的公司前缀进行比较。如果这些前缀匹配，则可以确认消息发送方实际上是已注册的制造商M，并且该函数返回True。否则，它只返回False。</p>
+<p>算法2 checkAuthorship（）的伪代码，用于检查消息发送者是否拥有声明的EPC的作者身份<br>输入：消息发送者的地址（Amsg）和EPC</p>
+<p>输出：布尔值（True或False）</p>
+<p>companyPrefixmsg←通过区块链获取邮件发件人的companyPrefix</p>
+<p>如果声明的EPC中描述的companyPrefix与companyPrefixmsg相同则</p>
+<p>返回True</p>
+<p>其他</p>
+<p>返回错误</p>
+<p>万一</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/20/7/" rel="next" title="正则结果">
+                <i class="fa fa-chevron-left"></i> 正则结果
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/01/10/9/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">神户小鸟厨</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">神户小鸟厨</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
